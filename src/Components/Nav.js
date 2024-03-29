@@ -6,12 +6,12 @@ function Nav() {
     return (
         <>
             <TopBar />
-            <nav class="navbar mr-auto navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+            <nav class="navbar mr-auto navbar-expand-lg bg-white navbar-light shadow sticky-top p-0 card">
 
-                <a class="navbar-brand d-flex align-items-center text-center py-5 m-2 px-5 px-lg-5" style={{
+                {/* <a class="navbar-brand d-flex align-items-center text-center py-5 m-2 px-5 px-lg-5" style={{
                 }}>
                     <img src={Logo} alt="Amamaza Logo" height="100px" width="160px" />
-                </a>
+                </a> */}
 
                 <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>

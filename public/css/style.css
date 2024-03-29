@@ -63,6 +63,13 @@ body {
     border-bottom: 3px solid darkblue;
 }
 
+.test .nav-link:hover {
+    color: inherit !important;
+    background-color: transparent !important;
+    cursor: pointer;
+    border-bottom: none;
+  }
+
 @media (max-width: 991.98px) {
     .navbar-dark .navbar-nav .nav-link,
     .navbar-light .navbar-nav .nav-link  {
@@ -110,5 +117,69 @@ body {
         transition: .5s;
         opacity: 1;
     }
+}
+
+.carousel-lg {
+
+}
+
+.custom-card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card .carousel-item img {
+    border-radius: 10px;
+}
+
+.custom-card .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.custom-card .carousel-caption h5,
+.custom-card .carousel-caption p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.bg-success {
+    background-color: #28a745 !important; /* Override Bootstrap bg-success color */
+}
+
+
+.card {
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text {
+    color: #666;
+    font-size: 16px;
+}
+
+.news-card {
+    border: 2px solid #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.news-card-1 {
+    border-color: #ff6347; /* Coral color */
 }
 
