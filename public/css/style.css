@@ -4,6 +4,8 @@
     --secondary: #2B9BFF;
     --light: #EFFDF5;
     --dark: #2B3940;
+    --tertiary:#065B94;
+    /* #F07539 */
 }
 
 body {
@@ -88,13 +90,17 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    color: var(--light);
     font-weight: 500;
 }
 
 .navbar-light.sticky-top {
     top: -100px;
     transition: .5s;
+}
+
+.bg-dark {
+    background-color: #3F4752 !important;
 }
 
 @media (min-width: 992px) {
@@ -183,3 +189,17 @@ body {
     border-color: #ff6347; /* Coral color */
 }
 
+.banner-card {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.banner-card:hover {
+    transform: translateY(-5px);
+}
+
+.banner-card .card-body {
+    text-align: center;
+}

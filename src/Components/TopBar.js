@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../images/banner-placeholder.png'
 function TopBar() {
   return (
-    <div className='topbar card'>
+    <div className='topbar card bg-dark'>
        <div class="row no-gutters">
         <div class="col-lg-4">
           <div className="test">

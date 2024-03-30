@@ -1,12 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Logo from '../images/logo.png'
-import TopBar from './TopBar'
+
 function Nav() {
     return (
         <>
-            <TopBar />
-            <nav class="navbar mr-auto navbar-expand-lg bg-white navbar-light shadow sticky-top p-0 card">
+            
+            <nav class="navbar mr-auto navbar-expand-lg bg-dark navbar-light shadow sticky-top p-0 card">
 
                 {/* <a class="navbar-brand d-flex align-items-center text-center py-5 m-2 px-5 px-lg-5" style={{
                 }}>
