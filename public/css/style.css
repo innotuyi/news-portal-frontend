@@ -203,3 +203,91 @@ body {
 .banner-card .card-body {
     text-align: center;
 }
+
+
+/* DetailPage.css */
+.detail-page {
+    background-color: #f9f9f9;
+    padding-top: 20px;
+  }
+  
+  .article-card {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .article-content {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .author-section {
+    background-color: #f8f9fa;
+    padding: 10px;
+  }
+  
+  .social-media-card {
+    position: sticky;
+    top: 100px; /* Adjust this value as needed */
+  }
+  
+  .social-media-section {
+    padding: 10px;
+  }
+  
+  .social-media-icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add styles for social media icons (e.g., color, hover effects) */
+
+  
+
+
+
+  /* ======================Dashboard=========================== */
+  .sidebar-bg {
+
+    background-color: #2124B1;
+    height: 120vh;
+    position: fixed;
+  }
+
+  .sidebar-bg li {
+
+    margin-bottom: 1rem !important;
+    list-style: none;
+
+  }
+  a {
+    text-decoration: none !important;
+  }
+  .statistics {
+  
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 20%;
+  
+     
+  }
+  .sidebar-bg li>a{
+    padding-bottom:10rem !important;
+    color:#fff;
+    list-style: none;
+  }
+
+  button {
+
+    border: none;
+    outline:none !important;
+    background-color: none !important;
+    
+  }
